@@ -13,6 +13,14 @@
 1. pymongo
 2. redis
 
+### 针对windows下的环境下的特殊处理,运行批处理文件进行环境的搭建
+1. 1_set_environment.bat
+2. 2_run_server.py
+3. 3_run.bat
+4. 4_clear_environment.bat
+
+> 需要注意的是在windows下pip安装软件会特别的慢，为了快速搭建环境，建议用库中提供的pip.ini代替本身的pip.ini
+
+
+
 项目实验主机使用windows+ubuntu，由于mongodb的原因，系统全部使用64bit
-
-
